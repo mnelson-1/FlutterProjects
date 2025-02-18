@@ -16,10 +16,10 @@ class Screen2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Screen 2'),
+        title: const Text('Thank you!'),
       ),
       body: Container(
-        color: Colors.indigo[50], // Matching background color
+        color: const Color.fromARGB(137, 245, 89, 185), // Matching background color
         child: Center(
           child: Card(
             elevation: 8,
@@ -41,7 +41,7 @@ class Screen2 extends StatelessWidget {
                         Navigator.pop(context);
                       },
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.indigo, // Button color
+                        backgroundColor: const Color.fromARGB(137, 245, 89, 185), // Button color
                         foregroundColor: Colors.white, // Text color
                         padding: const EdgeInsets.symmetric(
                             horizontal: 32, vertical: 16),
